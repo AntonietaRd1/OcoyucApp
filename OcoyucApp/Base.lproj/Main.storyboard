@@ -56,6 +56,9 @@
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Registrarse"/>
+                                        <connections>
+                                            <segue destination="xnq-2h-Eac" kind="show" id="SXk-sg-x0H"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -73,6 +76,80 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="54.198473282442748" y="-34.507042253521128"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fVY-ie-joU">
+            <objects>
+                <viewController id="xnq-2h-Eac" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZsF-HN-Oh9">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="kym-q1-b4r">
+                                <rect key="frame" x="59" y="105.33333333333331" width="275" height="631.33333333333348"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="maW-Hs-ooZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="275" height="188"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5im-xi-8IR">
+                                        <rect key="frame" x="0.0" y="219" width="275" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a0B-QM-Ct3">
+                                        <rect key="frame" x="0.0" y="280" width="275" height="34"/>
+                                        <color key="backgroundColor" red="0.91764705879999997" green="0.95686274510000002" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANc-dh-8t2">
+                                        <rect key="frame" x="0.0" y="345" width="275" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Szn-zF-sBg">
+                                        <rect key="frame" x="0.0" y="406" width="275" height="34"/>
+                                        <color key="backgroundColor" red="0.91764705879999997" green="0.95686274510000002" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contraseña" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfT-Rk-ehJ">
+                                        <rect key="frame" x="0.0" y="471.00000000000006" width="275" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s3E-xY-XYc">
+                                        <rect key="frame" x="0.0" y="532" width="275" height="34"/>
+                                        <color key="backgroundColor" red="0.91764705879999997" green="0.95686274510000002" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3o-y7-DLs">
+                                        <rect key="frame" x="0.0" y="597" width="275" height="34.333333333333371"/>
+                                        <color key="tintColor" red="0.14901960780000001" green="0.23137254900000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Registrarse"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V0G-1B-iPD"/>
+                        <color key="backgroundColor" red="0.32549019607843138" green="0.52941176470588236" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kym-q1-b4r" firstAttribute="height" secondItem="V0G-1B-iPD" secondAttribute="height" multiplier="0.75" id="Moy-CM-eYD"/>
+                            <constraint firstItem="kym-q1-b4r" firstAttribute="centerX" secondItem="ZsF-HN-Oh9" secondAttribute="centerX" id="Zxw-b5-Vhg"/>
+                            <constraint firstItem="kym-q1-b4r" firstAttribute="centerY" secondItem="ZsF-HN-Oh9" secondAttribute="centerY" id="bcg-BA-hO5"/>
+                            <constraint firstItem="kym-q1-b4r" firstAttribute="width" secondItem="V0G-1B-iPD" secondAttribute="width" multiplier="0.7" id="j8C-Md-CRt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="e2L-X9-ixe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O67-Vz-fUZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="838" y="-23"/>
         </scene>
     </scenes>
     <resources>
