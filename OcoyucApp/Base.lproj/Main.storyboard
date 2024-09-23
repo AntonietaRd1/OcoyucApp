@@ -89,30 +89,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="bottom" spacing="66" translatesAutoresizingMaskIntoConstraints="NO" id="BIi-fg-gH0">
-                                <rect key="frame" x="54.666666666666657" y="68" width="284" height="665.33333333333348"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" contentInsetAdjustmentBehavior="scrollableAxes" translatesAutoresizingMaskIntoConstraints="NO" id="1Ev-0G-4XW">
+                                <rect key="frame" x="29" y="64" width="345" height="485"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Ev-0G-4XW">
-                                        <rect key="frame" x="0.0" y="0.0" width="284" height="579"/>
-                                        <viewLayoutGuide key="contentLayoutGuide" id="w30-n6-zAd"/>
-                                        <viewLayoutGuide key="frameLayoutGuide" id="ZMT-MS-2ki"/>
-                                    </scrollView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="MENU INFERIOR PANTALLA 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njt-0H-BEv">
-                                        <rect key="frame" x="56.333333333333329" y="645" width="227.66666666666669" height="20.333333333333371"/>
-                                        <rect key="contentStretch" x="0.34999999999999998" y="0.0" width="1" height="1"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="p9t-ff-CmG">
+                                        <rect key="frame" x="179" y="20" width="140" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="NTE-qe-R2O">
+                                        <rect key="frame" x="25" y="20" width="140" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="aII-Ga-70e">
+                                        <rect key="frame" x="25" y="177" width="140" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="moB-cM-kj9">
+                                        <rect key="frame" x="25" y="335" width="140" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="IHX-fk-0YY">
+                                        <rect key="frame" x="179" y="177" width="140" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="LGS-1Q-UhT">
+                                        <rect key="frame" x="179" y="491" width="140" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="PvM-j2-9BK">
+                                        <rect key="frame" x="179" y="335" width="140" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="8VK-kj-dRG">
+                                        <rect key="frame" x="25" y="491" width="140" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="BXW-pq-eSk">
+                                        <rect key="frame" x="25" y="649" width="140" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="DpK-oE-6RM">
+                                        <rect key="frame" x="179" y="649" width="140" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
-                            </stackView>
+                                <viewLayoutGuide key="contentLayoutGuide" id="w30-n6-zAd"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="ZMT-MS-2ki"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MENU INFERIOR PANTALLA 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njt-0H-BEv">
+                                <rect key="frame" x="88" y="721" width="227.66666666666674" height="20.333333333333258"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.34999999999999998" y="0.0" width="1" height="1"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lNO-RO-yLy"/>
                         <color key="backgroundColor" red="0.32549019607843138" green="0.52941176470588236" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="BIi-fg-gH0" firstAttribute="centerX" secondItem="rGX-RU-Qz0" secondAttribute="centerX" id="A6U-8y-rnn"/>
-                            <constraint firstItem="BIi-fg-gH0" firstAttribute="centerY" secondItem="rGX-RU-Qz0" secondAttribute="centerY" id="jVG-T7-boa"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="w91-Nt-Aiv"/>
                 </viewController>
@@ -199,6 +234,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="flor1" width="148" height="148"/>
         <image name="logoo" width="750" height="735"/>
     </resources>
 </document>
