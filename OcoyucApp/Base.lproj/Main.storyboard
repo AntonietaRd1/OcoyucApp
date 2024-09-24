@@ -90,7 +90,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" contentInsetAdjustmentBehavior="scrollableAxes" translatesAutoresizingMaskIntoConstraints="NO" id="1Ev-0G-4XW">
-                                <rect key="frame" x="29" y="64" width="345" height="485"/>
+                                <rect key="frame" x="29" y="64" width="345" height="631"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="p9t-ff-CmG">
@@ -103,10 +103,6 @@
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="aII-Ga-70e">
                                         <rect key="frame" x="25" y="177" width="140" height="140"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="moB-cM-kj9">
-                                        <rect key="frame" x="25" y="335" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="IHX-fk-0YY">
@@ -133,23 +129,33 @@
                                         <rect key="frame" x="179" y="649" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="moB-cM-kj9">
+                                        <rect key="frame" x="25" y="335" width="140" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <viewLayoutGuide key="contentLayoutGuide" id="w30-n6-zAd"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="ZMT-MS-2ki"/>
                             </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MENU INFERIOR PANTALLA 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njt-0H-BEv">
-                                <rect key="frame" x="88" y="721" width="227.66666666666674" height="20.333333333333258"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <rect key="contentStretch" x="0.34999999999999998" y="0.0" width="1" height="1"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ADp-ub-Ww9">
+                                <rect key="frame" x="0.0" y="730" width="393" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.14901960784313725" green="0.23137254901960785" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <tabBarItem image="leaf" catalog="system" id="I9H-8K-tu4"/>
+                                    <tabBarItem image="camera" catalog="system" id="XX5-LL-oLt"/>
+                                    <tabBarItem title="" image="map" catalog="system" id="J78-58-4HP"/>
+                                    <tabBarItem title="" image="person" catalog="system" id="AAj-LO-JQn"/>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="selectedImageTintColor" red="0.14901960780000001" green="0.23137254900000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </tabBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lNO-RO-yLy"/>
                         <color key="backgroundColor" red="0.32549019607843138" green="0.52941176470588236" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="w91-Nt-Aiv"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AGW-fC-HYG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -234,7 +240,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="camera" catalog="system" width="128" height="93"/>
         <image name="flor1" width="148" height="148"/>
+        <image name="leaf" catalog="system" width="128" height="111"/>
         <image name="logoo" width="750" height="735"/>
+        <image name="map" catalog="system" width="128" height="112"/>
+        <image name="person" catalog="system" width="128" height="121"/>
     </resources>
 </document>
