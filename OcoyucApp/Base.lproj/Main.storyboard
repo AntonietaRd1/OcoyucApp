@@ -90,9 +90,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" contentInsetAdjustmentBehavior="scrollableAxes" translatesAutoresizingMaskIntoConstraints="NO" id="1Ev-0G-4XW">
-                                <rect key="frame" x="29" y="64" width="345" height="631"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" contentInsetAdjustmentBehavior="scrollableAxes" translatesAutoresizingMaskIntoConstraints="NO" id="1Ev-0G-4XW">
+                                <rect key="frame" x="29" y="64" width="345" height="712"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="p9t-ff-CmG">
                                         <rect key="frame" x="179" y="20" width="140" height="140"/>
@@ -141,6 +140,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lNO-RO-yLy"/>
                         <color key="backgroundColor" red="0.32549019607843138" green="0.52941176470588236" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="1Ev-0G-4XW" firstAttribute="height" secondItem="rGX-RU-Qz0" secondAttribute="height" multiplier="0.845606" id="Can-aG-K4m"/>
+                            <constraint firstItem="1Ev-0G-4XW" firstAttribute="width" secondItem="rGX-RU-Qz0" secondAttribute="width" multiplier="0.877863" id="EHO-ni-4Lw"/>
+                            <constraint firstItem="1Ev-0G-4XW" firstAttribute="centerY" secondItem="rGX-RU-Qz0" secondAttribute="centerY" id="YBj-xA-mCK"/>
+                            <constraint firstItem="1Ev-0G-4XW" firstAttribute="centerX" secondItem="rGX-RU-Qz0" secondAttribute="centerX" id="jy2-A8-3U6"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" image="leaf" catalog="system" id="qKc-qv-7aB"/>
                     <navigationItem key="navigationItem" id="w91-Nt-Aiv"/>
@@ -169,7 +174,7 @@
                         <viewLayoutGuide key="safeArea" id="TIc-dB-TTO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="iconcamara" id="jJG-QK-SxD"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="camera" catalog="system" id="jJG-QK-SxD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WNb-K8-Qmr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -274,17 +279,26 @@
             </objects>
             <point key="canvasLocation" x="83.206106870229007" y="706.33802816901414"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="oSI-PA-lul">
             <objects>
                 <viewController id="bui-ja-wXj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f4B-xp-oTg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mapa de ruta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u34-qa-hZ6">
+                                <rect key="frame" x="160" y="393" width="101" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="pPz-pr-NE2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="iconmapa" id="QFu-2K-M6f"/>
+                    <tabBarItem key="tabBarItem" title="" image="map" catalog="system" id="QFu-2K-M6f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r0l-Eg-EbU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -300,7 +314,7 @@
                         <viewLayoutGuide key="safeArea" id="o6n-KJ-ncj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="iconusuario" id="96F-42-y7Z"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="person" catalog="system" id="96F-42-y7Z"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gxL-ZT-7uc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -308,12 +322,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="camera" catalog="system" width="128" height="93"/>
         <image name="flor1" width="148" height="148"/>
-        <image name="iconcamara" width="48" height="40"/>
-        <image name="iconmapa" width="48" height="44"/>
-        <image name="iconusuario" width="36" height="40"/>
         <image name="leaf" catalog="system" width="128" height="111"/>
         <image name="logoo" width="750" height="735"/>
+        <image name="map" catalog="system" width="128" height="112"/>
+        <image name="person" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
