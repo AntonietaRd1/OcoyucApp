@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		83E032C42C87961D00E1D347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E032C32C87961D00E1D347 /* AppDelegate.swift */; };
 		83E032C62C87961D00E1D347 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E032C52C87961D00E1D347 /* SceneDelegate.swift */; };
-		83E032C82C87961D00E1D347 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E032C72C87961D00E1D347 /* ViewController.swift */; };
 		83E032CB2C87961D00E1D347 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 83E032CA2C87961D00E1D347 /* Base */; };
 		83E032CD2C87961F00E1D347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E032CC2C87961F00E1D347 /* Assets.xcassets */; };
 		83E032D02C87961F00E1D347 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 83E032CF2C87961F00E1D347 /* Base */; };
+		83F68B592CADCDAD00B17F16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E032C72C87961D00E1D347 /* ViewController.swift */; };
+		83F68B5B2CADCF1B00B17F16 /* PlantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F68B5A2CADCF1B00B17F16 /* PlantCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		83E032CC2C87961F00E1D347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83E032CF2C87961F00E1D347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83E032D12C87961F00E1D347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F68B5A2CADCF1B00B17F16 /* PlantCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				83E032CC2C87961F00E1D347 /* Assets.xcassets */,
 				83E032CE2C87961F00E1D347 /* LaunchScreen.storyboard */,
 				83E032D12C87961F00E1D347 /* Info.plist */,
+				83F68B5A2CADCF1B00B17F16 /* PlantCollectionViewCell.swift */,
 			);
 			path = OcoyucApp;
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83E032C82C87961D00E1D347 /* ViewController.swift in Sources */,
+				83F68B592CADCDAD00B17F16 /* ViewController.swift in Sources */,
 				83E032C42C87961D00E1D347 /* AppDelegate.swift in Sources */,
+				83F68B5B2CADCF1B00B17F16 /* PlantCollectionViewCell.swift in Sources */,
 				83E032C62C87961D00E1D347 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
