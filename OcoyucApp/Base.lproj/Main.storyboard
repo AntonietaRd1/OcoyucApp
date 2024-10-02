@@ -287,47 +287,47 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="aXx-tl-JwF">
-                                <rect key="frame" x="19.666666666666657" y="123.66666666666669" width="353.66666666666674" height="594.66666666666652"/>
+                                <rect key="frame" x="19.666666666666657" y="84" width="353.66666666666674" height="674"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="jpz-fO-Agk">
-                                        <rect key="frame" x="103" y="0.0" width="148" height="162"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="249" image="flor1" translatesAutoresizingMaskIntoConstraints="NO" id="jpz-fO-Agk">
+                                        <rect key="frame" x="103" y="0.0" width="148" height="241.33333333333334"/>
                                         <color key="backgroundColor" red="0.91764705879999997" green="0.95686274510000002" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Carlos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jid-pZ-j1R">
-                                        <rect key="frame" x="104.33333333333331" y="192" width="145" height="63.333333333333343"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carlos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jid-pZ-j1R">
+                                        <rect key="frame" x="104.33333333333331" y="271.33333333333331" width="145" height="63.333333333333314"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="53"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Aprendiz de Ocoyucan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9T-qC-mde">
-                                        <rect key="frame" x="59.666666666666671" y="285.33333333333331" width="234.66666666666663" height="28.666666666666686"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aprendiz de Ocoyucan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9T-qC-mde">
+                                        <rect key="frame" x="59.666666666666671" y="364.66666666666669" width="234.66666666666663" height="28.666666666666686"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="450 pts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsO-v7-jfG">
-                                        <rect key="frame" x="88" y="344" width="178" height="63.333333333333314"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="450 pts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsO-v7-jfG">
+                                        <rect key="frame" x="88" y="423.33333333333331" width="178" height="63.333333333333314"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="53"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Correo: carlos@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMG-92-G4D">
-                                        <rect key="frame" x="41.333333333333314" y="437.33333333333331" width="271" height="28.666666666666686"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correo: carlos@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMG-92-G4D">
+                                        <rect key="frame" x="41.333333333333314" y="516.66666666666663" width="271" height="28.666666666666629"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Contraseña: ********" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnk-wf-qif">
-                                        <rect key="frame" x="71.666666666666671" y="495.99999999999994" width="210.66666666666663" height="28.666666666666686"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contraseña: ********" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnk-wf-qif">
+                                        <rect key="frame" x="71.666666666666671" y="575.33333333333337" width="210.66666666666663" height="28.666666666666629"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QnG-z0-v5P">
-                                        <rect key="frame" x="85" y="554.66666666666674" width="184" height="40"/>
+                                        <rect key="frame" x="85" y="634" width="184" height="40"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="184" id="OBT-Pr-d2o"/>
-                                            <constraint firstAttribute="height" constant="40" id="wcY-kB-Vqk"/>
+                                            <constraint firstAttribute="height" constant="40" id="3mV-hK-rvL"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="184" id="lXt-WS-2iv"/>
                                         </constraints>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
@@ -342,8 +342,9 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="o6n-KJ-ncj"/>
                         <color key="backgroundColor" red="0.32549019610000002" green="0.52941176469999995" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="aXx-tl-JwF" firstAttribute="height" secondItem="o6n-KJ-ncj" secondAttribute="height" multiplier="0.75" id="GKC-wo-e9U"/>
+                            <constraint firstItem="aXx-tl-JwF" firstAttribute="height" secondItem="o6n-KJ-ncj" secondAttribute="height" multiplier="0.85" id="GKC-wo-e9U"/>
                             <constraint firstItem="aXx-tl-JwF" firstAttribute="centerX" secondItem="KpN-FR-XaY" secondAttribute="centerX" id="KFq-XM-lEr"/>
                             <constraint firstItem="aXx-tl-JwF" firstAttribute="width" secondItem="o6n-KJ-ncj" secondAttribute="width" multiplier="0.9" id="fc7-sN-6k4"/>
                             <constraint firstItem="aXx-tl-JwF" firstAttribute="centerY" secondItem="KpN-FR-XaY" secondAttribute="centerY" id="qgn-y1-Ww3"/>
