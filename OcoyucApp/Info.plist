@@ -20,6 +20,8 @@
 				</dict>
 			</array>
 		</dict>
+		<key>Privacy - Camera Usage Description</key>
+		<string>Tentzo-App camera use</string>
 	</dict>
 </dict>
 </plist>

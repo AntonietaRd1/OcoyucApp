@@ -86,28 +86,55 @@
         <!--Item-->
         <scene sceneID="riw-qW-bPi">
             <objects>
-                <viewController id="tIa-6i-gKf" sceneMemberID="viewController">
+                <viewController id="tIa-6i-gKf" customClass="PlantCollectionViewController" customModule="OcoyucApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rGX-RU-Qz0">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="p4r-9d-aZO">
                                 <rect key="frame" x="29.333333333333343" y="64" width="334.33333333333326" height="714"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.32549019610000002" green="0.52941176469999995" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="RQU-17-0dM">
-                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="itemSize" width="150" height="150"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="plantCell" id="l93-NM-JhM">
-                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="plantCell" id="l93-NM-JhM" customClass="PlantCollectionViewCell" customModule="OcoyucApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="AG0-S4-riE">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AG0-S4-riE">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fotoprueba" id="sy3-D0-qz0">
+                                                    <rect key="frame" x="5" y="5" width="150" height="150"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="I4w-Kd-jaq">
+                                                    <rect key="frame" x="5" y="127" width="148.66666666666666" height="23"/>
+                                                    <color key="backgroundColor" red="0.91764705879999997" green="0.95686274510000002" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="I4w-Kd-jaq" firstAttribute="width" secondItem="AG0-S4-riE" secondAttribute="width" multiplier="0.93" id="FXJ-C9-thQ"/>
+                                                <constraint firstItem="I4w-Kd-jaq" firstAttribute="leading" secondItem="AG0-S4-riE" secondAttribute="leading" constant="5" id="IhP-Lm-qJl"/>
+                                                <constraint firstAttribute="trailing" secondItem="I4w-Kd-jaq" secondAttribute="trailing" constant="5" id="ZnB-cw-Cx0"/>
+                                                <constraint firstAttribute="bottom" secondItem="I4w-Kd-jaq" secondAttribute="bottom" constant="10" id="dBg-VN-KL8"/>
+                                                <constraint firstAttribute="trailing" secondItem="sy3-D0-qz0" secondAttribute="trailing" constant="5" id="eOe-Sf-HrB"/>
+                                                <constraint firstItem="I4w-Kd-jaq" firstAttribute="height" secondItem="AG0-S4-riE" secondAttribute="height" multiplier="0.142857" id="eaE-dr-SUL"/>
+                                                <constraint firstItem="sy3-D0-qz0" firstAttribute="top" secondItem="AG0-S4-riE" secondAttribute="top" constant="5" id="kZy-gZ-hsh"/>
+                                                <constraint firstAttribute="bottom" secondItem="sy3-D0-qz0" secondAttribute="bottom" constant="5" id="mwL-8m-Q6x"/>
+                                                <constraint firstItem="sy3-D0-qz0" firstAttribute="leading" secondItem="AG0-S4-riE" secondAttribute="leading" constant="5" id="oNw-Wy-CFS"/>
+                                            </constraints>
                                         </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageView" destination="sy3-D0-qz0" id="CHI-Ku-dLx"/>
+                                            <outlet property="nameLbl" destination="I4w-Kd-jaq" id="186-r6-0P3"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -124,6 +151,9 @@
                     <tabBarItem key="tabBarItem" title="Item" image="leaf" catalog="system" id="qKc-qv-7aB"/>
                     <navigationItem key="navigationItem" id="w91-Nt-Aiv"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="collectionVIew" destination="p4r-9d-aZO" id="q6i-Bx-0ik"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AGW-fC-HYG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -360,6 +390,7 @@
     <resources>
         <image name="camera" catalog="system" width="128" height="93"/>
         <image name="flor1" width="148" height="148"/>
+        <image name="fotoprueba" width="322" height="457"/>
         <image name="leaf" catalog="system" width="128" height="111"/>
         <image name="logoo" width="750" height="735"/>
         <image name="map" catalog="system" width="128" height="112"/>

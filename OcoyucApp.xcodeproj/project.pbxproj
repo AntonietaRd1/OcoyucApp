@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83CE72A02CADE12B00A37AC6 /* PlantCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CE729F2CADE12B00A37AC6 /* PlantCollectionViewController.swift */; };
 		83E032C42C87961D00E1D347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E032C32C87961D00E1D347 /* AppDelegate.swift */; };
 		83E032C62C87961D00E1D347 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E032C52C87961D00E1D347 /* SceneDelegate.swift */; };
 		83E032CB2C87961D00E1D347 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 83E032CA2C87961D00E1D347 /* Base */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83CE729F2CADE12B00A37AC6 /* PlantCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCollectionViewController.swift; sourceTree = "<group>"; };
 		83E032C02C87961D00E1D347 /* OcoyucApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OcoyucApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E032C32C87961D00E1D347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83E032C52C87961D00E1D347 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				83E032CE2C87961F00E1D347 /* LaunchScreen.storyboard */,
 				83E032D12C87961F00E1D347 /* Info.plist */,
 				83F68B5A2CADCF1B00B17F16 /* PlantCollectionViewCell.swift */,
+				83CE729F2CADE12B00A37AC6 /* PlantCollectionViewController.swift */,
 			);
 			path = OcoyucApp;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				83F68B592CADCDAD00B17F16 /* ViewController.swift in Sources */,
 				83E032C42C87961D00E1D347 /* AppDelegate.swift in Sources */,
 				83F68B5B2CADCF1B00B17F16 /* PlantCollectionViewCell.swift in Sources */,
+				83CE72A02CADE12B00A37AC6 /* PlantCollectionViewController.swift in Sources */,
 				83E032C62C87961D00E1D347 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
