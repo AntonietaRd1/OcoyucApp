@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		836751E52CB7049C00C7D089 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836751E42CB7049C00C7D089 /* MapViewController.swift */; };
+		836751E82CB704AE00C7D089 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836751E72CB704AE00C7D089 /* MapKit.framework */; };
 		83CE72A02CADE12B00A37AC6 /* PlantCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CE729F2CADE12B00A37AC6 /* PlantCollectionViewController.swift */; };
 		83E032C42C87961D00E1D347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E032C32C87961D00E1D347 /* AppDelegate.swift */; };
 		83E032C62C87961D00E1D347 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E032C52C87961D00E1D347 /* SceneDelegate.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		836751E42CB7049C00C7D089 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		836751E72CB704AE00C7D089 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		83CE729F2CADE12B00A37AC6 /* PlantCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCollectionViewController.swift; sourceTree = "<group>"; };
 		83E032C02C87961D00E1D347 /* OcoyucApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OcoyucApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E032C32C87961D00E1D347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,17 +39,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836751E82CB704AE00C7D089 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		836751E62CB704AE00C7D089 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				836751E72CB704AE00C7D089 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		83E032B72C87961D00E1D347 = {
 			isa = PBXGroup;
 			children = (
 				83E032C22C87961D00E1D347 /* OcoyucApp */,
 				83E032C12C87961D00E1D347 /* Products */,
+				836751E62CB704AE00C7D089 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +78,7 @@
 				83E032C52C87961D00E1D347 /* SceneDelegate.swift */,
 				83E032C72C87961D00E1D347 /* ViewController.swift */,
 				83E032C92C87961D00E1D347 /* Main.storyboard */,
+				836751E42CB7049C00C7D089 /* MapViewController.swift */,
 				83E032CC2C87961F00E1D347 /* Assets.xcassets */,
 				83E032CE2C87961F00E1D347 /* LaunchScreen.storyboard */,
 				83E032D12C87961F00E1D347 /* Info.plist */,
@@ -145,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83F68B592CADCDAD00B17F16 /* ViewController.swift in Sources */,
+				836751E52CB7049C00C7D089 /* MapViewController.swift in Sources */,
 				83E032C42C87961D00E1D347 /* AppDelegate.swift in Sources */,
 				83F68B5B2CADCF1B00B17F16 /* PlantCollectionViewCell.swift in Sources */,
 				83CE72A02CADE12B00A37AC6 /* PlantCollectionViewController.swift in Sources */,
